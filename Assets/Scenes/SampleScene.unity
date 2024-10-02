@@ -1380,8 +1380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  enemyVisionArea: {fileID: 0}
-  enemyHearingArea: {fileID: 0}
+  enemyVisionArea: {fileID: 221589976}
+  enemyHearingArea: {fileID: 972004034}
 --- !u!195 &1257029882
 NavMeshAgent:
   m_ObjectHideFlags: 0

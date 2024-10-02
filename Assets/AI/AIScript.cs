@@ -19,14 +19,14 @@ public class AIScript : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         StartCoroutine(Patrol());
     }
+    void OnTriggerEnter(Collider player)
+    {
+
+    }
 
     // Update is called once per frame
     void Update()
     {
-        void OnTriggerEnter(Collider player)
-        {
-
-        }
 
         //dot product
         Vector3 directionToTarget = (target.position - transform.position).normalized;
